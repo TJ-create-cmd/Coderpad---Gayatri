@@ -347,114 +347,128 @@
         <!-- Task 3: Booth Activation -->
         <!-- Task 3: Booth Activation -->
         <section id="task3" class="mb-16 fade-in delay-3">
-            <div class="bg-white rounded-xl overflow-hidden shadow-sm card-hover">
-                <div class="p-6 sm:p-8">
-                    <div class="flex items-start justify-between mb-4">
-                        <div>
-                            <div class="flex items-center mb-4">
-                                <span class="flex items-center justify-center h-10 w-10 rounded-lg bg-emerald-100 text-emerald-800 mr-4">
-                                    <i class="fas fa-lightbulb text-lg"></i>
-                                </span>
-                                <h2 class="text-2xl font-bold text-slate-800">Booth Activation Idea</h2>
-                            </div>
-                            <p class="text-slate-600">
-                                An interactive experience designed to draw crowds and engage the target audience at a large outdoor event in London (~5,000 attendees).
-                            </p>
-                        </div>
-                        <img src="https://images.unsplash.com/photo-1531058020387-3be344556be6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Outdoor London event concept" class="h-24 w-24 object-cover rounded-lg hidden sm:block">
-                    </div>
+     <div class="bg-white rounded-xl overflow-hidden shadow-sm card-hover">
+         <!-- Reduced overall padding slightly -->
+         <div class="p-6">
+             <!-- Removed justify-between to keep elements closer to the left -->
+             <div class="flex items-start mb-4">
+                 <div class="flex-grow"> <!-- Allow text block to take available space -->
+                     <div class="flex items-center mb-4">
+                         <span class="flex items-center justify-center h-10 w-10 rounded-lg bg-emerald-100 text-emerald-800 mr-4 flex-shrink-0"> <!-- Added flex-shrink-0 -->
+                             <i class="fas fa-lightbulb text-lg"></i>
+                         </span>
+                         <h2 class="text-2xl font-bold text-slate-800">Booth Activation Idea</h2>
+                     </div>
+                     <p class="text-slate-600">
+                         An interactive experience designed to draw crowds and engage the target audience at a large outdoor event in London (~5,000 attendees).
+                     </p>
+                 </div>
+                 <!-- Replaced image src and alt. Kept responsive hiding. Removed justify-between above. -->
+                 <img src="Codepak1.png" alt="CoderPad booth setup at an outdoor event" class="h-24 w-24 object-cover rounded-lg hidden sm:block ml-4 flex-shrink-0"> <!-- Added ml-4 for spacing and flex-shrink-0 -->
+             </div>
 
-                    <div class="mb-8 p-4 bg-slate-50 rounded-lg">
-                        <h3 class="text-xl font-semibold text-emerald-700 mb-3 text-center">CoderPad "Code Breaker" Challenge 🕵️‍♀️</h3>
+             <div class="mb-8 p-4 bg-slate-50 rounded-lg">
+                 <!-- Removed text-center -->
+                 <h3 class="text-xl font-semibold text-emerald-700 mb-3">CoderPad "Code Breaker" Challenge 🕵️‍♀️</h3>
 
-                        <div class="mb-4">
-                           <h4 class="font-semibold text-slate-800 mb-1 text-center italic">The Scenario:</h4>
-                           <p class="text-center text-slate-700">
-                               Imagine the bustling energy of an outdoor London event. To cut through the noise and capture attention, we need an activation that embodies CoderPad's focus on skill and creates genuine interaction.
-                           </p>
-                       </div>
-
-                       <div class="mb-4">
-                            <h4 class="font-semibold text-slate-800 mb-1 text-center italic">The Activation:</h4>
-                           <p class="text-center text-slate-700">
-                               Attendees face a fun, hands-on challenge: solve logic puzzles on a tablet within ~3 minutes to reveal a combination, unlock a physical lockbox, and win cool branded swag. A live leaderboard fuels friendly competition.
-                           </p>
-                       </div>
-
-                       <div class="flex flex-wrap gap-2 justify-center mt-4">
-                           <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">Interactive</span>
-                           <span class="px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-xs font-medium">Skill-Based</span>
-                           <span class="px-3 py-1 bg-amber-100 text-amber-800 rounded-full text-xs font-medium">Competitive</span>
-                           <span class="px-3 py-1 bg-emerald-100 text-emerald-800 rounded-full text-xs font-medium">Memorable</span>
-                       </div>
-                    </div>
-
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-                        <div class="bg-slate-50 p-5 rounded-lg">
-                            <h3 class="font-medium text-slate-800 mb-3 flex items-center">
-                                <i class="fas fa-puzzle-piece text-purple-500 mr-2"></i> Key Components
-                            </h3>
-                            <ul class="list-disc pl-5 space-y-2 text-sm text-slate-700">
-                                <li>Engaging logic puzzles (tablet/cards)</li>
-                                <li>~3-minute timer per attempt</li>
-                                <li>Physical lockbox w/ combination lock</li>
-                                <li>Quality branded swag prizes</li>
-                                <li>Optional digital leaderboard</li>
-                                <li>Clear CoderPad branding</li>
-                            </ul>
-                        </div>
-
-                        <div class="bg-slate-50 p-5 rounded-lg">
-                            <h3 class="font-medium text-slate-800 mb-3 flex items-center">
-                                <i class="fas fa-bullseye text-red-500 mr-2"></i> Why It Works for CoderPad
-                            </h3>
-                            <ul class="list-disc pl-5 space-y-2 text-sm text-slate-700">
-                                <li>Tangibly demonstrates focus on skills</li>
-                                <li>Creates engaging, memorable interaction</li>
-                                <li>Attracts relevant audience (problem-solvers)</li>
-                                <li>Provides easy conversation starters for staff</li>
-                                <li>Differentiates CoderPad's booth</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="bg-emerald-50 p-6 rounded-lg">
-                        <h3 class="font-bold text-lg text-slate-800 mb-3 flex items-center">
-                            <i class="fas fa-chart-line text-emerald-500 mr-2"></i> Potential Outcomes
-                        </h3>
-                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                            <div class="bg-white p-4 rounded-lg shadow-xs">
-                                <div class="flex items-center mb-2">
-                                    <div class="h-8 w-8 rounded-full bg-blue-100 flex items-center justify-center mr-2">
-                                        <i class="fas fa-users text-blue-500 text-sm"></i>
-                                    </div>
-                                    <span class="font-medium text-sm text-slate-800">High Engagement</span>
-                                </div>
-                                <p class="text-xs text-slate-600">Deeper interactions, increased dwell time.</p>
-                            </div>
-                            <div class="bg-white p-4 rounded-lg shadow-xs">
-                                <div class="flex items-center mb-2">
-                                    <div class="h-8 w-8 rounded-full bg-purple-100 flex items-center justify-center mr-2">
-                                        <i class="fas fa-id-card text-purple-500 text-sm"></i>
-                                    </div>
-                                    <span class="font-medium text-sm text-slate-800">Quality Leads</span>
-                                </div>
-                                <p class="text-xs text-slate-600">Attracts ideal audience; captures details.</p>
-                            </div>
-                            <div class="bg-white p-4 rounded-lg shadow-xs">
-                                <div class="flex items-center mb-2">
-                                    <div class="h-8 w-8 rounded-full bg-amber-100 flex items-center justify-center mr-2">
-                                        <i class="fas fa-brain text-amber-500 text-sm"></i>
-                                    </div>
-                                    <span class="font-medium text-sm text-slate-800">Brand Recall</span>
-                                </div>
-                                <p class="text-xs text-slate-600">Fun experience makes CoderPad memorable.</p>
-                            </div>
-                        </div>
-                    </div>
+                 <div class="mb-4">
+                    <!-- Removed text-center -->
+                    <h4 class="font-semibold text-slate-800 mb-1 italic">The Scenario:</h4>
+                    <!-- Removed text-center -->
+                    <p class="text-slate-700">
+                         Imagine the bustling energy of an outdoor London event. To cut through the noise and capture attention, we need an activation that embodies CoderPad's focus on skill and creates genuine interaction.
+                    </p>
                 </div>
-            </div>
-        </section>
+
+                <div class="mb-4">
+                     <!-- Removed text-center -->
+                     <h4 class="font-semibold text-slate-800 mb-1 italic">The Activation:</h4>
+                    <!-- Removed text-center -->
+                    <p class="text-slate-700">
+                         Attendees face a fun, hands-on challenge: solve logic puzzles on a tablet within ~3 minutes to reveal a combination, unlock a physical lockbox, and win cool branded swag. A live leaderboard fuels friendly competition.
+                    </p>
+                </div>
+
+                <!-- Removed justify-center - tags will now align left -->
+                <div class="flex flex-wrap gap-2 mt-4">
+                    <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">Interactive</span>
+                    <span class="px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-xs font-medium">Skill-Based</span>
+                    <span class="px-3 py-1 bg-amber-100 text-amber-800 rounded-full text-xs font-medium">Competitive</span>
+                    <span class="px-3 py-1 bg-emerald-100 text-emerald-800 rounded-full text-xs font-medium">Memorable</span>
+                </div>
+             </div>
+
+             <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+                 <!-- Content inside these columns was already mostly left-aligned -->
+                 <div class="bg-slate-50 p-5 rounded-lg">
+                     <h3 class="font-medium text-slate-800 mb-3 flex items-center">
+                         <i class="fas fa-puzzle-piece text-purple-500 mr-2"></i> Key Components
+                     </h3>
+                     <ul class="list-disc pl-5 space-y-2 text-sm text-slate-700">
+                         <li>Engaging logic puzzles (tablet/cards)</li>
+                         <li>~3-minute timer per attempt</li>
+                         <li>Physical lockbox w/ combination lock</li>
+                         <li>Quality branded swag prizes</li>
+                         <li>Optional digital leaderboard</li>
+                         <li>Clear CoderPad branding</li>
+                     </ul>
+                 </div>
+
+                 <div class="bg-slate-50 p-5 rounded-lg">
+                     <h3 class="font-medium text-slate-800 mb-3 flex items-center">
+                         <i class="fas fa-bullseye text-red-500 mr-2"></i> Why It Works for CoderPad
+                     </h3>
+                     <ul class="list-disc pl-5 space-y-2 text-sm text-slate-700">
+                         <li>Tangibly demonstrates focus on skills</li>
+                         <li>Creates engaging, memorable interaction</li>
+                         <li>Attracts relevant audience (problem-solvers)</li>
+                         <li>Provides easy conversation starters for staff</li>
+                         <li>Differentiates CoderPad's booth</li>
+                     </ul>
+                 </div>
+             </div>
+
+             <div class="bg-emerald-50 p-6 rounded-lg">
+                 <h3 class="font-bold text-lg text-slate-800 mb-3 flex items-center">
+                     <i class="fas fa-chart-line text-emerald-500 mr-2"></i> Potential Outcomes
+                 </h3>
+                 <!-- Content inside these columns was already left-aligned -->
+                 <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                     <div class="bg-white p-4 rounded-lg shadow-xs">
+                         <div class="flex items-center mb-2">
+                             <div class="h-8 w-8 rounded-full bg-blue-100 flex items-center justify-center mr-2 flex-shrink-0">
+                                 <i class="fas fa-users text-blue-500 text-sm"></i>
+                             </div>
+                             <span class="font-medium text-sm text-slate-800">High Engagement</span>
+                         </div>
+                         <p class="text-xs text-slate-600">Deeper interactions, increased dwell time.</p>
+                     </div>
+                     <div class="bg-white p-4 rounded-lg shadow-xs">
+                         <div class="flex items-center mb-2">
+                             <div class="h-8 w-8 rounded-full bg-purple-100 flex items-center justify-center mr-2 flex-shrink-0">
+                                 <i class="fas fa-id-card text-purple-500 text-sm"></i>
+                             </div>
+                             <span class="font-medium text-sm text-slate-800">Quality Leads</span>
+                         </div>
+                         <p class="text-xs text-slate-600">Attracts ideal audience; captures details.</p>
+                     </div>
+                     <div class="bg-white p-4 rounded-lg shadow-xs">
+                         <div class="flex items-center mb-2">
+                             <div class="h-8 w-8 rounded-full bg-amber-100 flex items-center justify-center mr-2 flex-shrink-0">
+                                 <i class="fas fa-brain text-amber-500 text-sm"></i>
+                             </div>
+                             <span class="font-medium text-sm text-slate-800">Brand Recall</span>
+                         </div>
+                         <p class="text-xs text-slate-600">Fun experience makes CoderPad memorable.</p>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </section>
+
+ <!-- Make sure you have Font Awesome included in your project for the icons -->
+ <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" ... /> -->
 
         <!-- Footer -->
         <footer class="text-center py-8 text-slate-500 text-sm fade-in">
